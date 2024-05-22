@@ -70,7 +70,7 @@ for i in ThirdContent :
 DinaLoopList2 = DinaLoopList2.split("\n")
 
 
-# ------------  After Lines All Use Scrape thanthi Website  ------------
+# ------------  After Lines All Use Of Scrape thanthi Website  ------------
 
 url = "https://www.dailythanthi.com/"
 headers = {'User-Agent' : 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:125.0) Gecko/20100101 Firefox/125.0'}
