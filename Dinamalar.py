@@ -96,8 +96,9 @@ timestr =str(time)
 timestrip =timestr.strip()
 Abstract = second1.div.text.strip()
 
-
-
+FinalOutput.insert(2,heading)
+FinalOutput.insert(3,timestrip)
+FinalOutput.insert(4,Abstract)
 
 heading = first1.h4.text.strip()
 time = first1.span.text.strip("GMT")
@@ -139,6 +140,7 @@ for i in second2 :
 
 ThanLoopOutput2 = ThanLoopOutput2.split("\n")
 
+print(FinalOutput[2])
 
 li = FinalOutput
 for i in li :
@@ -160,9 +162,9 @@ while index5 < count :
       ind4 = li[index4] 
       ind5 = li[index5]
 
-      sql = "insert into news (than,loc) value(%s,%s)"
-      mycursor.execute(sql,(ind1,ind2))
-      mydb.commit()
+     #  sql = "insert into news (than,loc) value(%s,%s)"
+     # mycursor.execute(sql,(ind1,ind2))
+     # mydb.commit()
 
       index1 += 5
       index2 += 5
